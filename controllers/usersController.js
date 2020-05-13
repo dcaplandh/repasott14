@@ -35,7 +35,7 @@ const controller = {
         let usuariosJSON = fs.readFileSync("./data/users.json");
         let usuariosJS = JSON.parse(usuariosJSON);
         usuariosJS.push(usuario);
-        usuariosJSON = JSON.stringify(usuariosJS);
+        usuariosJSON = JSON.stringify(usuariosJS, null, 4);
         fs.writeFileSync("./data/users.json",usuariosJSON);
 
         res.send("usuario registrado exitosamente");

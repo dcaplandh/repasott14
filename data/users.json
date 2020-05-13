@@ -1,2 +1,20 @@
-[{"name":"Flavio Mendoza","email":"flavio@gmail.com","password":"flavio","foto":"foto.png"},
-    {"name":"Jose Maria Listorti","email":"jose@yahoo.com.ar","password":"josecito","foto":"foto.png"}]
+[
+    {
+        "name": "Flavio Mendoza",
+        "email": "flavio@gmail.com",
+        "password": "flavio",
+        "foto": "foto.png"
+    },
+    {
+        "name": "asdfasdf",
+        "email": "adsfasdfa",
+        "password": "asdfasdf",
+        "foto": "foto.png"
+    },
+    {
+        "name": "asdfasdf",
+        "email": "asdfasdf",
+        "password": "adfasdf",
+        "foto": "foto.png"
+    }
+]
