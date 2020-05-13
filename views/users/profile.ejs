@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario</title>
+</head>
+<body>
+    
+    Ahora si veo el perfil en <strong>HTML</strong>
+
+    <h1>Cargo: <%= rol %></h1>
+    <h2>Nombre Completo: <%= usuario %></h2>
+
+    <% console.log("") %>
+    <% for(var i = 0;i < 10;i++){ %><%= i %><br><% } %>
+
+    <% alumnosEnLaVista.forEach(function(alumno){ %>
+        <%= alumno %>
+    <% }); %>
+
+    
+</body>
+</html>
